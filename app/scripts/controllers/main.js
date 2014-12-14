@@ -7,11 +7,14 @@
  * # MainCtrl
  * Controller of the basicprojectApp
  */
-angular.module('basicprojectApp')
+app
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+  $scope.login=function(){
+         console.log("asdfasdf");
+     }
   });

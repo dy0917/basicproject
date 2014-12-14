@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the basicprojectApp
  */
-angular.module('basicprojectApp')
+app
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
